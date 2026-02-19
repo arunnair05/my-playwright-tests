@@ -7,6 +7,10 @@ pipeline {
             args '-u root:root --env HOME=/root --ipc=host'
         }
     }
+    tools {
+        // This MUST match the name you gave in Global Tool Configuration
+        allure 'Allure 2.36.0' 
+    }
 
     stages {
         stage('Checkout') {
@@ -30,12 +34,16 @@ pipeline {
         }
     }
 
-    post {
+   post {
         always {
-            // This saves your test results even if the tests fail
+            // 1. Generate the Allure Report
+            // path: 'allure-results' must match the folder defined in your playwright.config.ts
+            allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+
+            // 2. Keep your Playwright HTML report as a backup
             publishHTML(target: [
-                allowMissing: false,
-                alwaysLinkToLastBuild: false,
+                allowMissing: true,
+                alwaysLinkToLastBuild: true,
                 keepAll: true,
                 reportDir: 'playwright-report',
                 reportFiles: 'index.html',
