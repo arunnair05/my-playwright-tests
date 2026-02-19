@@ -4,7 +4,7 @@ pipeline {
         docker { 
             image 'mcr.microsoft.com/playwright:v1.57.0-noble'
             // Keep these args to fix the npm permission (EACCES) issues
-            args '-u root:root --env HOME=${WORKSPACE} --ipc=host'
+            args '-u root:root --env HOME=/root --ipc=host'
         }
     }
 
@@ -18,7 +18,7 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh 'npm ci --cache .npm-cache'
+                sh 'npm ci --cache .npm-cache --unsafe-perm ' 
             }
         }
 
