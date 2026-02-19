@@ -1,0 +1,481 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e7]:
+        - generic:
+          - generic:
+            - generic:
+              - button [ref=e8] [cursor=pointer]
+              - textbox "Search..." [ref=e9]
+          - link "pinterest" [ref=e10] [cursor=pointer]:
+            - /url: https://in.pinterest.com/globalsqa/
+          - link "twitter" [ref=e11] [cursor=pointer]:
+            - /url: https://twitter.com/Global_SQA
+          - link "linkedin" [ref=e12] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/globalsqa
+          - link "google" [ref=e13] [cursor=pointer]:
+            - /url: https://plus.google.com/103761557396023531439/posts
+          - link "facebook" [ref=e14] [cursor=pointer]:
+            - /url: https://facebook.com/globalsqa
+          - generic [ref=e16]: contact@globalsqa.com
+      - generic [ref=e19]:
+        - link "GlobalSQA" [ref=e22] [cursor=pointer]:
+          - /url: https://www.globalsqa.com/
+          - img "GlobalSQA" [ref=e23]
+        - generic [ref=e24]:
+          - list:
+            - listitem [ref=e25]:
+              - link "About" [ref=e26] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/about/
+            - listitem [ref=e27]:
+              - link "CheatSheets" [ref=e28] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/cheatsheets/
+            - listitem [ref=e29]:
+              - link "Free Ebooks" [ref=e30] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/free-ebooks/
+                - text: Free Ebooks
+            - listitem [ref=e32]:
+              - link "Tester’s Hub" [ref=e33] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/testers-hub/
+                - text: Tester’s Hub
+              - text:  
+            - listitem [ref=e35]:
+              - link "Contact Us" [ref=e36] [cursor=pointer]:
+                - /url: https://www.globalsqa.com/contact-us/
+      - text:    
+    - generic [ref=e37]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - link "Home" [ref=e43] [cursor=pointer]:
+            - /url: https://www.globalsqa.com/
+            - generic [ref=e44]: Home
+          - link "Demo Testing Site" [ref=e45] [cursor=pointer]:
+            - /url: https://www.globalsqa.com/demo-site/
+            - generic [ref=e46]: Demo Testing Site
+          - link "DropDown Menu" [ref=e47] [cursor=pointer]:
+            - /url: https://www.globalsqa.com/demo-site/select-dropdown-menu/
+            - generic [ref=e48]: DropDown Menu
+        - heading "DropDown Menu" [level=1] [ref=e50]
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - heading "Interaction" [level=4] [ref=e56]
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "Sortable" [ref=e60] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/sorting/
+                  - generic [ref=e61]: Sortable
+              - listitem [ref=e62]:
+                - link "Drag And Drop" [ref=e63] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/draganddrop/
+                  - generic [ref=e64]: Drag And Drop
+              - listitem [ref=e65]:
+                - link "Select Elements" [ref=e66] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/select-elements/
+                  - generic [ref=e67]: Select Elements
+              - listitem [ref=e68]:
+                - link "Draggable Boxes" [ref=e69] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/draggableboxes/
+                  - generic [ref=e70]: Draggable Boxes
+              - listitem [ref=e71]:
+                - link "DropDown Menu" [ref=e72] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/select-dropdown-menu/
+                  - generic [ref=e73]: DropDown Menu
+          - generic [ref=e74]:
+            - heading "Widgets" [level=4] [ref=e75]
+            - list [ref=e77]:
+              - listitem [ref=e78]:
+                - link "Tooltip" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/tooltip/
+                  - generic [ref=e80]: Tooltip
+              - listitem [ref=e81]:
+                - link "Sliders" [ref=e82] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/sliders/
+                  - generic [ref=e83]: Sliders
+              - listitem [ref=e84]:
+                - link "Spinner" [ref=e85] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/spinner/
+                  - generic [ref=e86]: Spinner
+              - listitem [ref=e87]:
+                - link "DatePicker" [ref=e88] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/datepicker/
+                  - generic [ref=e89]: DatePicker
+              - listitem [ref=e90]:
+                - link "Progress Bar" [ref=e91] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/progress-bar/
+                  - generic [ref=e92]: Progress Bar
+              - listitem [ref=e93]:
+                - link "Dialog Boxes" [ref=e94] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/dialog-boxes/
+                  - generic [ref=e95]: Dialog Boxes
+              - listitem [ref=e96]:
+                - link "Auto Complete" [ref=e97] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/auto-complete/
+                  - generic [ref=e98]: Auto Complete
+              - listitem [ref=e99]:
+                - link "Accordion And Tabs" [ref=e100] [cursor=pointer]:
+                  - /url: https://www.globalsqa.com/demo-site/accordion-and-tabs/
+                  - generic [ref=e101]: Accordion And Tabs
+          - iframe [ref=e103]:
+            
+          - generic [ref=e105]:
+            - generic "These are topics related to the article that might interest you" [ref=e106]: Discover more
+            - link "GlobalSQA" [ref=e107] [cursor=pointer]:
+              - img [ref=e109]
+              - text: GlobalSQA
+            - link "Widgets" [ref=e111] [cursor=pointer]:
+              - img [ref=e113]
+              - text: Widgets
+            - link "Graphical widget" [ref=e115] [cursor=pointer]:
+              - img [ref=e117]
+              - text: Graphical widget
+            - link "globalsqa" [ref=e119] [cursor=pointer]:
+              - img [ref=e121]
+              - text: globalsqa
+            - link "Menu" [ref=e123] [cursor=pointer]:
+              - img [ref=e125]
+              - text: Menu
+            - link "Analytics" [ref=e127] [cursor=pointer]:
+              - img [ref=e129]
+              - text: Analytics
+            - link "unit test" [ref=e131] [cursor=pointer]:
+              - img [ref=e133]
+              - text: unit test
+            - link "Tensorflow" [ref=e135] [cursor=pointer]:
+              - img [ref=e137]
+              - text: Tensorflow
+            - link "Cross-platform software" [ref=e139] [cursor=pointer]:
+              - img [ref=e141]
+              - text: Cross-platform software
+            - link "TensorFlow" [ref=e143] [cursor=pointer]:
+              - img [ref=e145]
+              - text: TensorFlow
+          - iframe [ref=e148]:
+            
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - list [ref=e151]:
+              - tab "Select Country" [ref=e152] [cursor=pointer]
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - strong [ref=e157]: "Select country from below drop down list:"
+                - paragraph [ref=e158]:
+                  - combobox [ref=e159]:
+                    - option "Afghanistan" [selected]
+                    - option "Åland Islands"
+                    - option "Albania"
+                    - option "Algeria"
+                    - option "American Samoa"
+                    - option "Andorra"
+                    - option "Angola"
+                    - option "Anguilla"
+                    - option "Antarctica"
+                    - option "Antigua and Barbuda"
+                    - option "Argentina"
+                    - option "Armenia"
+                    - option "Aruba"
+                    - option "Australia"
+                    - option "Austria"
+                    - option "Azerbaijan"
+                    - option "Bahamas"
+                    - option "Bahrain"
+                    - option "Bangladesh"
+                    - option "Barbados"
+                    - option "Belarus"
+                    - option "Belgium"
+                    - option "Belize"
+                    - option "Benin"
+                    - option "Bermuda"
+                    - option "Bhutan"
+                    - option "Bolivia, Plurinational State of"
+                    - option "Bonaire, Sint Eustatius and Saba"
+                    - option "Bosnia and Herzegovina"
+                    - option "Botswana"
+                    - option "Bouvet Island"
+                    - option "Brazil"
+                    - option "British Indian Ocean Territory"
+                    - option "Brunei Darussalam"
+                    - option "Bulgaria"
+                    - option "Burkina Faso"
+                    - option "Burundi"
+                    - option "Cambodia"
+                    - option "Cameroon"
+                    - option "Canada"
+                    - option "Cape Verde"
+                    - option "Cayman Islands"
+                    - option "Central African Republic"
+                    - option "Chad"
+                    - option "Chile"
+                    - option "China"
+                    - option "Christmas Island"
+                    - option "Cocos (Keeling) Islands"
+                    - option "Colombia"
+                    - option "Comoros"
+                    - option "Congo"
+                    - option "Congo, the Democratic Republic of the"
+                    - option "Cook Islands"
+                    - option "Costa Rica"
+                    - option "Côte d’Ivoire"
+                    - option "Croatia"
+                    - option "Cuba"
+                    - option "Curaçao"
+                    - option "Cyprus"
+                    - option "Czech Republic"
+                    - option "Denmark"
+                    - option "Djibouti"
+                    - option "Dominica"
+                    - option "Dominican Republic"
+                    - option "Ecuador"
+                    - option "Egypt"
+                    - option "El Salvador"
+                    - option "Equatorial Guinea"
+                    - option "Eritrea"
+                    - option "Estonia"
+                    - option "Ethiopia"
+                    - option "Falkland Islands (Malvinas)"
+                    - option "Faroe Islands"
+                    - option "Fiji"
+                    - option "Finland"
+                    - option "France"
+                    - option "French Guiana"
+                    - option "French Polynesia"
+                    - option "French Southern Territories"
+                    - option "Gabon"
+                    - option "Gambia"
+                    - option "Georgia"
+                    - option "Germany"
+                    - option "Ghana"
+                    - option "Gibraltar"
+                    - option "Greece"
+                    - option "Greenland"
+                    - option "Grenada"
+                    - option "Guadeloupe"
+                    - option "Guam"
+                    - option "Guatemala"
+                    - option "Guernsey"
+                    - option "Guinea"
+                    - option "Guinea-Bissau"
+                    - option "Guyana"
+                    - option "Haiti"
+                    - option "Heard Island and McDonald Islands"
+                    - option "Holy See (Vatican City State)"
+                    - option "Honduras"
+                    - option "Hong Kong"
+                    - option "Hungary"
+                    - option "Iceland"
+                    - option "India"
+                    - option "Indonesia"
+                    - option "Iran, Islamic Republic of"
+                    - option "Iraq"
+                    - option "Ireland"
+                    - option "Isle of Man"
+                    - option "Israel"
+                    - option "Italy"
+                    - option "Jamaica"
+                    - option "Japan"
+                    - option "Jersey"
+                    - option "Jordan"
+                    - option "Kazakhstan"
+                    - option "Kenya"
+                    - option "Kiribati"
+                    - option "Korea, Democratic People’s Republic of"
+                    - option "Korea, Republic of"
+                    - option "Kuwait"
+                    - option "Kyrgyzstan"
+                    - option "Lao People’s Democratic Republic"
+                    - option "Latvia"
+                    - option "Lebanon"
+                    - option "Lesotho"
+                    - option "Liberia"
+                    - option "Libya"
+                    - option "Liechtenstein"
+                    - option "Lithuania"
+                    - option "Luxembourg"
+                    - option "Macao"
+                    - option "Macedonia, the former Yugoslav Republic of"
+                    - option "Madagascar"
+                    - option "Malawi"
+                    - option "Malaysia"
+                    - option "Maldives"
+                    - option "Mali"
+                    - option "Malta"
+                    - option "Marshall Islands"
+                    - option "Martinique"
+                    - option "Mauritania"
+                    - option "Mauritius"
+                    - option "Mayotte"
+                    - option "Mexico"
+                    - option "Micronesia, Federated States of"
+                    - option "Moldova, Republic of"
+                    - option "Monaco"
+                    - option "Mongolia"
+                    - option "Montenegro"
+                    - option "Montserrat"
+                    - option "Morocco"
+                    - option "Mozambique"
+                    - option "Myanmar"
+                    - option "Namibia"
+                    - option "Nauru"
+                    - option "Nepal"
+                    - option "Netherlands"
+                    - option "New Caledonia"
+                    - option "New Zealand"
+                    - option "Nicaragua"
+                    - option "Niger"
+                    - option "Nigeria"
+                    - option "Niue"
+                    - option "Norfolk Island"
+                    - option "Northern Mariana Islands"
+                    - option "Norway"
+                    - option "Oman"
+                    - option "Pakistan"
+                    - option "Palau"
+                    - option "Palestinian Territory, Occupied"
+                    - option "Panama"
+                    - option "Papua New Guinea"
+                    - option "Paraguay"
+                    - option "Peru"
+                    - option "Philippines"
+                    - option "Pitcairn"
+                    - option "Poland"
+                    - option "Portugal"
+                    - option "Puerto Rico"
+                    - option "Qatar"
+                    - option "Réunion"
+                    - option "Romania"
+                    - option "Russian Federation"
+                    - option "Rwanda"
+                    - option "Saint Barthélemy"
+                    - option "Saint Helena, Ascension and Tristan da Cunha"
+                    - option "Saint Kitts and Nevis"
+                    - option "Saint Lucia"
+                    - option "Saint Martin (French part)"
+                    - option "Saint Pierre and Miquelon"
+                    - option "Saint Vincent and the Grenadines"
+                    - option "Samoa"
+                    - option "San Marino"
+                    - option "Sao Tome and Principe"
+                    - option "Saudi Arabia"
+                    - option "Senegal"
+                    - option "Serbia"
+                    - option "Seychelles"
+                    - option "Sierra Leone"
+                    - option "Singapore"
+                    - option "Sint Maarten (Dutch part)"
+                    - option "Slovakia"
+                    - option "Slovenia"
+                    - option "Solomon Islands"
+                    - option "Somalia"
+                    - option "South Africa"
+                    - option "South Georgia and the South Sandwich Islands"
+                    - option "South Sudan"
+                    - option "Spain"
+                    - option "Sri Lanka"
+                    - option "Sudan"
+                    - option "Suriname"
+                    - option "Svalbard and Jan Mayen"
+                    - option "Swaziland"
+                    - option "Sweden"
+                    - option "Switzerland"
+                    - option "Syrian Arab Republic"
+                    - option "Taiwan, Province of China"
+                    - option "Tajikistan"
+                    - option "Tanzania, United Republic of"
+                    - option "Thailand"
+                    - option "Timor-Leste"
+                    - option "Togo"
+                    - option "Tokelau"
+                    - option "Tonga"
+                    - option "Trinidad and Tobago"
+                    - option "Tunisia"
+                    - option "Turkey"
+                    - option "Turkmenistan"
+                    - option "Turks and Caicos Islands"
+                    - option "Tuvalu"
+                    - option "Uganda"
+                    - option "Ukraine"
+                    - option "United Arab Emirates"
+                    - option "United Kingdom"
+                    - option "United States"
+                    - option "United States Minor Outlying Islands"
+                    - option "Uruguay"
+                    - option "Uzbekistan"
+                    - option "Vanuatu"
+                    - option "Venezuela, Bolivarian Republic of"
+                    - option "Viet Nam"
+                    - option "Virgin Islands, British"
+                    - option "Virgin Islands, U.S."
+                    - option "Wallis and Futuna"
+                    - option "Western Sahara"
+                    - option "Yemen"
+                    - option "Zambia"
+                    - option "Zimbabwe"
+                  - insertion [ref=e160]
+              - paragraph [ref=e161]
+          - paragraph [ref=e162]
+          - paragraph [ref=e163]
+    - generic:
+      - insertion:
+        - iframe [ref=e165]:
+          
+    - generic [ref=e166]:
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - heading "Footer Widget Area 1" [level=3] [ref=e170]
+          - paragraph [ref=e171]:
+            - link "Assign a widget to this area now." [ref=e172] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+        - generic [ref=e173]:
+          - heading "Footer Widget Area 2" [level=3] [ref=e174]
+          - paragraph [ref=e175]:
+            - link "Assign a widget to this area now." [ref=e176] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+        - generic [ref=e177]:
+          - heading "Footer Widget Area 3" [level=3] [ref=e178]
+          - paragraph [ref=e179]:
+            - link "Assign a widget to this area now." [ref=e180] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+        - generic [ref=e181]:
+          - heading "Footer Widget Area 4" [level=3] [ref=e182]
+          - paragraph [ref=e183]:
+            - link "Assign a widget to this area now." [ref=e184] [cursor=pointer]:
+              - /url: https://www.globalsqa.com/wp-admin/widgets.php
+      - generic [ref=e189]:
+        - link "pinterest" [ref=e190] [cursor=pointer]:
+          - /url: https://in.pinterest.com/globalsqa/
+        - link "twitter" [ref=e191] [cursor=pointer]:
+          - /url: https://twitter.com/Global_SQA
+        - link "linkedin" [ref=e192] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/globalsqa
+        - link "google" [ref=e193] [cursor=pointer]:
+          - /url: https://plus.google.com/103761557396023531439/posts
+        - link "facebook" [ref=e194] [cursor=pointer]:
+          - /url: https://facebook.com/globalsqa
+        - generic [ref=e195]:
+          - text: "Website Designed & Developed by :"
+          - link "GlobalSQA" [ref=e196] [cursor=pointer]:
+            - /url: https://www.globalsqa.com
+  - insertion [ref=e199]:
+    - iframe [ref=e202]:
+      - iframe [ref=f12e1]:
+        - iframe [ref=f14e1]: "</div><script data-jc=\"22\" src=\"https://tpc.googlesyndication.com/pagead/js/r20260205/r20110914/client/window_focus_fy2021.js\" async data-jc-version=\"r20260205\" data-jcp-url=\"https://googleads.g.doubleclick.net/pagead/interaction/?ai=CrxadVzCGabHIOdua3NMP8s2g-Aq-vcfmYdeIqO67DcCNtwEQASCn5pMjYMn25obIo_wayAEJqAMByAMCqgTwAU_QlXSfshPheLVTQ6Ki_66uuRTFPeJZaGuiLYp1YXF45ksuzDyYmo1CqO9ShiZrXxcENenFe4NTc0KD6qTIdWs9mYcYeL_KiloourC1k1S9B_Mz-sQ4grwy8VvV_IsLgYmCoR_LTPNzBi76HRk66myfxaRJUm9HdKwyhWz7C2S0XfbACiNALQ9KzBYvaIf1XHJlu5-Sb_JKnwQ90k3Uc6YyUivL5tO4k8Nb1AsRvhcCDvIF88_gTdR_UfHBTaM7SsO3Y4XssfO_UQCe_KsyTH5CVk4Dn3-zeH1aXU5jlyYvErI8Dg4WEi8WvkWmCSi24YAGt_De2Yz5pI_JAaAGIagHk9ixAqgHlNixAqgHldixAqgHpr4bqAeW2BuoB6qbsQKoB_-esQKoB9-fsQKoB62-sQKoB7_TsQLYBwDSCCwIgGEQATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlichKT5vMWSA_oLAggBgAwBqg0CVVPqDRMIs9Gn-bzFkgMVWw13BB3yJgiviA4J0BUBgBcBshcEGAxQAQ&amp;sigh=6DYbA6rbSFk&amp;cid=CAQSsgEA56J1eV8SA5A9g8c9h6X_12Yh3m_QzGL5htU9yP6ufbjxJd5BaHFpo6GdMjyI5NZ8IUh-wx_1rKD0Kutz_zWFdI_tDT-vH-nv00VWgcYxnuvtrVthJPNssDRjLso5_5m8N1BtR0EWd08rTyOCzh1Tq8-Y7lqGWPGigkJ7nrq8Y8s6kaoXjPOrdEI42YCbXWqiMNtH2U3-g-2t8BKTlymE6f9vbq9JIf3gNVnROXgQluTG\" data-jcp-gws-id=\"VzCGaczCNYLwkPIPtIKw-QU\" data-jcp-qem-id=\"CPHPp_m8xZIDFVsNdwQd8iYIrw\"></script><script data-jc=\"23\" src=\"https://tpc.googlesyndication.com/pagead/js/r20260205/r20110914/client/qs_click_protection_fy2021.js\" data-jc-version=\"r20260205\" data-jcp-init-data=\"[[[[null,500,99,2,9,null,null,null,1],[null,500,99,2,8,null,null,null,1]]],null,null,null,null,null,null,null,null,null,null,null,1]\"></script><script>window.parent.postMessage('{\"googMsgType\":\"pvt\",\"token\":\"AOrYGskoQwCzzPuGPA_z9hLIkrJiOYk2WKiPIrVuBGRkyX2DFYLTZ6mNIiqSiHiETg9D7N6b5wCBjfoMnVgeEoKauOiT25OU9jw5NGwHKpIoD4f6oCWVpYa4Z5doKsg\"}', '*');window.top.postMessage('{\"msg_type\":\"adsense-labs\",\"key_value\":[{\"key\":\"settings\",\"value\":\"[\\\\\\\"ca-pub-2878895907861435\\\\\\\",[[1]],null,[[\\\\\\\"ID=040416b5289d4b60:T=1770401879:RT=1770401879:S=ALNI_MaiQCrowHxDLM3WUZ3bhRTEwLKKvg\\\\\\\",1804097879,\\\\\\\"/\\\\\\\",\\\\\\\"globalsqa.com\\\\\\\",1],[\\\\\\\"UID=0000136b21a7084d:T=1770401879:RT=1770401879:S=ALNI_MZMQUpI5a93EKVI6yTnmTC1Eh40_g\\\\\\\",1804097879,\\\\\\\"/\\\\\\\",\\\\\\\"globalsqa.com\\\\\\\",2]],[\\\\\\\"ID=813e62ad3eb44906:T=1770401879:RT=1770401879:S=AA-AfjYfcCJuEgoUFwr6ORfRMWWA\\\\\\\",1785953879,\\\\\\\"/\\\\\\\",\\\\\\\"globalsqa.com\\\\\\\"]]\"}],\"googMsgType\":\"sth\"}', '*');window.top.postMessage('{\"key_value\":[{\"key\":\"qid\",\"value\":\"CPHPp_m8xZIDFVsNdwQd8iYIrw\"}],\"googMsgType\":\"adpnt\"}', '*');</script><div style=\"display:none\" data-google-query-id=\"CPHPp_m8xZIDFVsNdwQd8iYIrw\"></div><div style=\"bottom:0;right:0;width:246px;height:90px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:pixelated !important;z-index:2147483647;background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAAB6SURBVBjTbZEBDoAwCAO7H/D/1xooO0biZFHm0dQq/a/jpazppKi3UTvokkuQy2NJRHGu7qAPd21tPR1OxEw5YaXo8i1YjXbcbdfPEOKFj6Tp+1ig8O2DqjFiXpYep6cn93fdCO2EFIhdO8FWbW0SJMSl3WzX+y8Pnj9QgAWzSyxYIgAAAABJRU5ErkJggg==') !important;\"></div><script data-jc=\"103\" data-jc-version=\"r20260205\" data-jc-flags=\"[&quot;x%72?06104!=wu}ay&quot;]\" data-jcp-base_url=\"https://googleads.g.doubleclick.net/pagead/conversion/?ai=CrxadVzCGabHIOdua3NMP8s2g-Aq-vcfmYdeIqO67DcCNtwEQASCn5pMjYMn25obIo_wayAEJqAMByAMCqgTwAU_QlXSfshPheLVTQ6Ki_66uuRTFPeJZaGuiLYp1YXF45ksuzDyYmo1CqO9ShiZrXxcENenFe4NTc0KD6qTIdWs9mYcYeL_KiloourC1k1S9B_Mz-sQ4grwy8VvV_IsLgYmCoR_LTPNzBi76HRk66myfxaRJUm9HdKwyhWz7C2S0XfbACiNALQ9KzBYvaIf1XHJlu5-Sb_JKnwQ90k3Uc6YyUivL5tO4k8Nb1AsRvhcCDvIF88_gTdR_UfHBTaM7SsO3Y4XssfO_UQCe_KsyTH5CVk4Dn3-zeH1aXU5jlyYvErI8Dg4WEi8WvkWmCSi24YAGt_De2Yz5pI_JAaAGIagHk9ixAqgHlNixAqgHldixAqgHpr4bqAeW2BuoB6qbsQKoB_-esQKoB9-fsQKoB62-sQKoB7_TsQLYBwDSCCwIgGEQATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlichKT5vMWSA_oLAggBgAwBqg0CVVPqDRMIs9Gn-bzFkgMVWw13BB3yJgiviA4J0BUBgBcBshcEGAxQAQ&amp;sigh=6DYbA6rbSFk\" data-jcp-cpu_label=\"heavy_ad_intervention_cpu\" data-jcp-net_label=\"heavy_ad_intervention_network\">(function(){'use strict';var d=new class{constructor(a,b=!1){this.key=a;this.defaultValue=b;this.valueType=\"boolean\"}}(\"45742757\",!0);let f=0;function k(a,b=null){return b&&b.getAttribute(\"data-jc\")===String(a)?b:document.querySelector(`[${\"data-jc\"}=\"${a}\"]`)};function l(){m||(m=new n);const a=m.g[d.key];if(d.valueType===\"proto\"){try{const b=JSON.parse(a);if(Array.isArray(b))return b}catch(b){}return d.defaultValue}return typeof a===typeof d.defaultValue?a:d.defaultValue}var p=class{constructor(){this.g={}}};var n=class extends p{constructor(){super();var a=k(f,document.currentScript);a=a&&a.getAttribute(\"data-jc-flags\")||\"\";try{const b=JSON.parse(a)[0];a=\"\";for(let c=0;c<b.length;c++)a+=String.fromCharCode(b.charCodeAt(c)^\"\\u0003\\u0007\\u0003\\u0007\\b\\u0004\\u0004\\u0006\\u0005\\u0003\".charCodeAt(c%10));this.g=JSON.parse(a)}catch(b){}}},m;f=103;const r=k(103,document.currentScript);if(r==null)throw Error(\"JSC not found 103\");const t={},u=r.attributes;for(let a=u.length-1;a>=0;a--){const b=u[a].name;b.indexOf(\"data-jcp-\")===0&&(t[b.substring(9)]=u[a].value)} (function(a,b,c){var e=window;if(a&&b&&c&&e.ReportingObserver&&e.fetch){var q=(g,v)=>{g=g[0];g?.body?.id===\"HeavyAdIntervention\"&&(e.fetch(`${a}&label=${(g.body.message?.indexOf(\"network\")||0)>0?c:b}`,{keepalive:!0,method:\"get\",mode:\"no-cors\"}),v.disconnect())},h=new e.ReportingObserver(q,{types:[\"intervention\"],buffered:!0});h.observe();l()&&e.addEventListener(\"pagehide\",()=>{q(h.takeRecords(),h);h.disconnect()})}})(t.base_url,t.cpu_label,t.net_label);}).call(this);</script><script id=\"googleActiveViewDisplayScript\" src=\"https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js\"></script><script type=\"text/javascript\">osdlfm();</script></body></html>":
+          - generic [ref=f15e2]:
+            - link "Download Extension" [ref=f15e3] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=L&ai=CrxadVzCGabHIOdua3NMP8s2g-Aq-vcfmYdeIqO67DcCNtwEQASCn5pMjYMn25obIo_wayAEJqAMByAMCqgTwAU_QlXSfshPheLVTQ6Ki_66uuRTFPeJZaGuiLYp1YXF45ksuzDyYmo1CqO9ShiZrXxcENenFe4NTc0KD6qTIdWs9mYcYeL_KiloourC1k1S9B_Mz-sQ4grwy8VvV_IsLgYmCoR_LTPNzBi76HRk66myfxaRJUm9HdKwyhWz7C2S0XfbACiNALQ9KzBYvaIf1XHJlu5-Sb_JKnwQ90k3Uc6YyUivL5tO4k8Nb1AsRvhcCDvIF88_gTdR_UfHBTaM7SsO3Y4XssfO_UQCe_KsyTH5CVk4Dn3-zeH1aXU5jlyYvErI8Dg4WEi8WvkWmCSi24YAGt_De2Yz5pI_JAaAGIagHk9ixAqgHlNixAqgHldixAqgHpr4bqAeW2BuoB6qbsQKoB_-esQKoB9-fsQKoB62-sQKoB7_TsQLYBwDSCCwIgGEQATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlichKT5vMWSA_oLAggBgAwBqg0CVVPqDRMIs9Gn-bzFkgMVWw13BB3yJgiviA4J0BUBgBcBshcEGAxQAQ&num=1&sig=AOD64_1quIKPdVFkbRvTweqx1eNlhFs2Lg&client=ca-pub-2878895907861435&adurl=https%3A%2F%2Frtb.trustedspotapp.com%2Fapp%2Frtbclick%3Fp%3D8aha6IWfs5PYVl0BNjC1t-bI6rhj6iX1kUYvcc0zaJmktJmalqtYdQQ75PQduqOIppR5kacPCISzXBvWI28snHL89mOH6i5FZ9djpDVIMZnHHUD4th5cpQqNREi8SR5NDbUoXrividJ_RZtPmoBjPNjKtRczJopCRPSHxfIbjOsFyusNrGHiwLTbRwrkbCcmbXBhFjmKw0JLVfigMJUrFbXk7RFDCurscn8MRRRujA8ZGjynTJMXvSYKJw-9NYwGVttKDQ6nqqn4WI8m85nnvxh83ysbbtsnrw309uST2zsEeJi9OO2I0FpnJKIJ2tV52Mq1FzMmikLsX4BiQV5bAGiP3kMbl4skvH1hiYXY1uAA48aHetuB0PBlHUy--Bt1c1hYTy-PeCZoj95DG5eLJBlnPW_LgO59GHJbvzAODqT4XRYV0jbm0v0YVEydOpvoQBPSvzRZr90HbUotInsCoxiC8YdVv0ps5g2zhcGH2ZCEP3NRnuNsyJsI3ZC0YIgYmIoe7jTC47fKF2iy3juFsCHqzSk-KRg7qb2PPeTclojXmPyZ7KLga-yzkt54L1JiI8z1hX-jh2tlQEZUze64Sg4JB5-wQqVdcOYCkv8TSN9Oz7KUuHHuSEbPer4OrbqzsXngl4p5u5rKWmpwAowHldcIkSucK5ukoQWIsjoHSGLlocXgcEXOL_JZnQbNJjpkTs-ylLhx7kgI9FBzZuy8aNgcFc4_-stlX70431sDt4SjmDFxRWsXwMhaRC3tjO-ogC88w_WWsREse7_2unQzLVddlSxIfbiRW_IXzwMjFx7dILAloEgTDaOYMXFFaxfAypQpbMvonDgoHxeugim4H9bXwqeHamUuuzcRylHS8Zj_QYD1uEz1p1FiwhY-PExuy8jFGTjRw0ozpewG3G-4OZRdTOAPBpI8jbC3P4hi2vbXuOVfb1WUiKIUQifqkybX6ay17nsvYBzYo4BhTVCnASIMnRBxftT46IgRzUWm0CKzo5LW1bo2x2vPCmURF-4gqvoNILn8q_wjeqssyRIkKloz0FzvIPQivmKyCRxEG7Ln_swWOzlsRdkxDM92XQ2fRPL_5FYp4EsyUZyoTqw-mRAkWrCbap4e_osjV5aXU6XU4vSNrcmZiLOJ_UJs59vvHL8nN-GU2WahAD4n0ejL5YF4no715SIGWhOK81tUo9hwjRMkpraGi53G7nCIktArgAvaGbpd8l746UK1EpKCtkvTK_qDFs1ef9glhoQJ2qq_Lz5BoHedxFcX_CZXWi6FcnAGrtr1_9vqcTSmB6RMpsayJisvkwqBO30F5o6EInoxcLEOj4CDCaO_KF9JKIq7iK_kBA0PuT03aC3pevSPHAEnhsC3Rapq6v2k9_If9oHiDqi0mg7S0QIHfoVExAbkfwmxwzNuzw8%26cap%3DaYYwVwAOZDEEdw1bAAgm8hV1NTzHl8AKnht71g
+              - generic [ref=f15e4]:
+                - generic [ref=f15e5]: Download
+                - generic [ref=f15e6]: Extension
+              - img [ref=f15e7]
+            - generic [ref=f15e9]:
+              - paragraph [ref=f15e10]:
+                - strong [ref=f15e11]: "2 Easy Steps:"
+              - list [ref=f15e12]:
+                - listitem [ref=f15e13]:
+                  - text: Click
+                  - link "“Download”" [ref=f15e14] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=L&ai=CrxadVzCGabHIOdua3NMP8s2g-Aq-vcfmYdeIqO67DcCNtwEQASCn5pMjYMn25obIo_wayAEJqAMByAMCqgTwAU_QlXSfshPheLVTQ6Ki_66uuRTFPeJZaGuiLYp1YXF45ksuzDyYmo1CqO9ShiZrXxcENenFe4NTc0KD6qTIdWs9mYcYeL_KiloourC1k1S9B_Mz-sQ4grwy8VvV_IsLgYmCoR_LTPNzBi76HRk66myfxaRJUm9HdKwyhWz7C2S0XfbACiNALQ9KzBYvaIf1XHJlu5-Sb_JKnwQ90k3Uc6YyUivL5tO4k8Nb1AsRvhcCDvIF88_gTdR_UfHBTaM7SsO3Y4XssfO_UQCe_KsyTH5CVk4Dn3-zeH1aXU5jlyYvErI8Dg4WEi8WvkWmCSi24YAGt_De2Yz5pI_JAaAGIagHk9ixAqgHlNixAqgHldixAqgHpr4bqAeW2BuoB6qbsQKoB_-esQKoB9-fsQKoB62-sQKoB7_TsQLYBwDSCCwIgGEQATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlichKT5vMWSA_oLAggBgAwBqg0CVVPqDRMIs9Gn-bzFkgMVWw13BB3yJgiviA4J0BUBgBcBshcEGAxQAQ&num=1&sig=AOD64_1quIKPdVFkbRvTweqx1eNlhFs2Lg&client=ca-pub-2878895907861435&adurl=https%3A%2F%2Frtb.trustedspotapp.com%2Fapp%2Frtbclick%3Fp%3D8aha6IWfs5PYVl0BNjC1t-bI6rhj6iX1kUYvcc0zaJmktJmalqtYdQQ75PQduqOIppR5kacPCISzXBvWI28snHL89mOH6i5FZ9djpDVIMZnHHUD4th5cpQqNREi8SR5NDbUoXrividJ_RZtPmoBjPNjKtRczJopCRPSHxfIbjOsFyusNrGHiwLTbRwrkbCcmbXBhFjmKw0JLVfigMJUrFbXk7RFDCurscn8MRRRujA8ZGjynTJMXvSYKJw-9NYwGVttKDQ6nqqn4WI8m85nnvxh83ysbbtsnrw309uST2zsEeJi9OO2I0FpnJKIJ2tV52Mq1FzMmikLsX4BiQV5bAGiP3kMbl4skvH1hiYXY1uAA48aHetuB0PBlHUy--Bt1c1hYTy-PeCZoj95DG5eLJBlnPW_LgO59GHJbvzAODqT4XRYV0jbm0v0YVEydOpvoQBPSvzRZr90HbUotInsCoxiC8YdVv0ps5g2zhcGH2ZCEP3NRnuNsyJsI3ZC0YIgYmIoe7jTC47fKF2iy3juFsCHqzSk-KRg7qb2PPeTclojXmPyZ7KLga-yzkt54L1JiI8z1hX-jh2tlQEZUze64Sg4JB5-wQqVdcOYCkv8TSN9Oz7KUuHHuSEbPer4OrbqzsXngl4p5u5rKWmpwAowHldcIkSucK5ukoQWIsjoHSGLlocXgcEXOL_JZnQbNJjpkTs-ylLhx7kgI9FBzZuy8aNgcFc4_-stlX70431sDt4SjmDFxRWsXwMhaRC3tjO-ogC88w_WWsREse7_2unQzLVddlSxIfbiRW_IXzwMjFx7dILAloEgTDaOYMXFFaxfAypQpbMvonDgoHxeugim4H9bXwqeHamUuuzcRylHS8Zj_QYD1uEz1p1FiwhY-PExuy8jFGTjRw0ozpewG3G-4OZRdTOAPBpI8jbC3P4hi2vbXuOVfb1WUiKIUQifqkybX6ay17nsvYBzYo4BhTVCnASIMnRBxftT46IgRzUWm0CKzo5LW1bo2x2vPCmURF-4gqvoNILn8q_wjeqssyRIkKloz0FzvIPQivmKyCRxEG7Ln_swWOzlsRdkxDM92XQ2fRPL_5FYp4EsyUZyoTqw-mRAkWrCbap4e_osjV5aXU6XU4vSNrcmZiLOJ_UJs59vvHL8nN-GU2WahAD4n0ejL5YF4no715SIGWhOK81tUo9hwjRMkpraGi53G7nCIktArgAvaGbpd8l746UK1EpKCtkvTK_qDFs1ef9glhoQJ2qq_Lz5BoHedxFcX_CZXWi6FcnAGrtr1_9vqcTSmB6RMpsayJisvkwqBO30F5o6EInoxcLEOj4CDCaO_KF9JKIq7iK_kBA0PuT03aC3pevSPHAEnhsC3Rapq6v2k9_If9oHiDqi0mg7S0QIHfoVExAbkfwmxwzNuzw8%26cap%3DaYYwVwAOZDEEdw1bAAgm8hV1NTzHl8AKnht71g
+                - listitem [ref=f15e15]: Add Trusted Spot extension
+```

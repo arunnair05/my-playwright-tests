@@ -1,0 +1,19 @@
+{
+  "name": "typescriptbases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "types": "./sample.d.ts",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.10",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.5"
+  }
+}

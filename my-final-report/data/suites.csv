@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","699","setup data via external API","chromium","2026-01-31","passed","2026-01-31","","test.spec.ts","",""
+"","895","setup data via external API","webkit","2026-01-31","passed","2026-01-31","","test.spec.ts","",""
+"","7111","my first interview test","firefox","2026-01-31","failed","2026-01-31","","test.spec.ts","",""
+"","1362","setup data via external API","firefox","2026-01-31","passed","2026-01-31","","test.spec.ts","",""
+"","6500","my first interview test","chromium","2026-01-31","failed","2026-01-31","","test.spec.ts","",""
+"","5018","my first interview test","webkit","2026-01-31","passed","2026-01-31","","test.spec.ts","",""

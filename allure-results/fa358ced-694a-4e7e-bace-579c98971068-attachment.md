@@ -1,0 +1,294 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fbakkappan
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic:
+          - generic:
+            - generic:
+              - img "@BakkappaN"
+            - generic:
+              - strong: BakkappaN
+              - generic:
+                - generic:
+                  - link "Follow":
+                    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fbakkappan
+      - navigation "User profile" [ref=e68]:
+        - link "Overview" [ref=e69] [cursor=pointer]:
+          - /url: /BakkappaN
+          - img [ref=e70]
+          - text: Overview
+        - link "Repositories 30" [ref=e72] [cursor=pointer]:
+          - /url: /BakkappaN?tab=repositories
+          - img [ref=e73]
+          - text: Repositories
+          - generic "30" [ref=e75]
+        - link "Projects" [ref=e76] [cursor=pointer]:
+          - /url: /BakkappaN?tab=projects
+          - img [ref=e77]
+          - text: Projects
+        - link "Packages" [ref=e79] [cursor=pointer]:
+          - /url: /BakkappaN?tab=packages
+          - img [ref=e80]
+          - text: Packages
+        - link "Stars 17" [ref=e82] [cursor=pointer]:
+          - /url: /BakkappaN?tab=stars
+          - img [ref=e83]
+          - text: Stars
+          - generic "17" [ref=e85]
+    - generic [ref=e87]:
+      - generic [ref=e89]:
+        - generic:
+          - generic:
+            - generic:
+              - img "@BakkappaN"
+            - generic:
+              - generic:
+                - strong: BakkappaN
+            - generic:
+              - generic:
+                - generic:
+                  - link "Follow":
+                    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fbakkappan
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - link "View BakkappaN's full-sized avatar" [ref=e93] [cursor=pointer]:
+                - /url: https://avatars.githubusercontent.com/u/22426896?v=4
+                - img "View BakkappaN's full-sized avatar" [ref=e94]
+              - generic [ref=e97]:
+                - generic [ref=e99]: 🎯
+                - generic: Focusing
+            - heading "Testers Talk BakkappaN" [level=1] [ref=e101]:
+              - generic [ref=e102]: Testers Talk
+              - generic [ref=e103]: BakkappaN
+          - generic [ref=e104]:
+            - link "Follow" [ref=e111] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fbakkappan
+            - generic [ref=e112]:
+              - generic [ref=e114]: https://www.youtube.com/c/BakkappaN_SoftwareTesting_Videos
+              - generic [ref=e116]:
+                - link "343 followers" [ref=e117] [cursor=pointer]:
+                  - /url: https://github.com/BakkappaN?tab=followers
+                  - img [ref=e118]
+                  - text: 343 followers
+                - text: ·
+                - link "3 following" [ref=e120] [cursor=pointer]:
+                  - /url: https://github.com/BakkappaN?tab=following
+              - list [ref=e121]:
+                - 'listitem "Home location: Bangalore, INDIA" [ref=e122]':
+                  - img [ref=e123]
+                  - generic [ref=e125]: Bangalore, INDIA
+                - listitem [ref=e126]:
+                  - img [ref=e127]
+                  - link "https://www.linkedin.com/in/bakkappa-n/" [ref=e129] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/bakkappa-n/
+          - generic [ref=e130]:
+            - heading "Achievements" [level=2] [ref=e131]:
+              - link "Achievements" [ref=e132] [cursor=pointer]:
+                - /url: /BakkappaN?tab=achievements
+            - 'link "Achievement: Starstruck" [ref=e134] [cursor=pointer]':
+              - /url: /BakkappaN?achievement=starstruck&tab=achievements
+              - 'img "Achievement: Starstruck" [ref=e135]'
+          - button "Block or Report" [ref=e136] [cursor=pointer]:
+            - generic [ref=e138]: Block or Report
+      - generic [ref=e141]:
+        - generic [ref=e143]:
+          - heading "Pinned Loading" [level=2] [ref=e144]:
+            - text: Pinned
+            - generic [ref=e145]: Loading
+            - status
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - generic [ref=e149]:
+                - generic [ref=e151]:
+                  - img [ref=e152]
+                  - link "PlaywrightTutorialFullCourse" [ref=e155] [cursor=pointer]:
+                    - /url: /BakkappaN/PlaywrightTutorialFullCourse
+                  - text: Public
+                - paragraph [ref=e156]: Playwright Tutorial Full Course
+                - paragraph [ref=e157]:
+                  - generic [ref=e158]: JavaScript
+                  - link "stars 55" [ref=e160] [cursor=pointer]:
+                    - /url: /BakkappaN/PlaywrightTutorialFullCourse/stargazers
+                    - img "stars" [ref=e161]
+                    - text: "55"
+                  - link "forks 47" [ref=e163] [cursor=pointer]:
+                    - /url: /BakkappaN/PlaywrightTutorialFullCourse/forks
+                    - img "forks" [ref=e164]
+                    - text: "47"
+            - listitem [ref=e166]:
+              - generic [ref=e168]:
+                - generic [ref=e170]:
+                  - img [ref=e171]
+                  - link "PostmanCollectionsByTestersTalk" [ref=e174] [cursor=pointer]:
+                    - /url: /BakkappaN/PostmanCollectionsByTestersTalk
+                  - text: Public
+                - paragraph [ref=e175]
+                - paragraph [ref=e176]:
+                  - link "stars 10" [ref=e177] [cursor=pointer]:
+                    - /url: /BakkappaN/PostmanCollectionsByTestersTalk/stargazers
+                    - img "stars" [ref=e178]
+                    - text: "10"
+                  - link "forks 18" [ref=e180] [cursor=pointer]:
+                    - /url: /BakkappaN/PostmanCollectionsByTestersTalk/forks
+                    - img "forks" [ref=e181]
+                    - text: "18"
+            - listitem [ref=e183]:
+              - generic [ref=e185]:
+                - generic [ref=e187]:
+                  - img [ref=e188]
+                  - link "PlaywrightAPITestingTutorial" [ref=e191] [cursor=pointer]:
+                    - /url: /BakkappaN/PlaywrightAPITestingTutorial
+                  - text: Public
+                - paragraph [ref=e192]: Playwright API Testing Tutorial
+                - paragraph [ref=e193]:
+                  - generic [ref=e194]: JavaScript
+                  - link "stars 27" [ref=e196] [cursor=pointer]:
+                    - /url: /BakkappaN/PlaywrightAPITestingTutorial/stargazers
+                    - img "stars" [ref=e197]
+                    - text: "27"
+                  - link "forks 20" [ref=e199] [cursor=pointer]:
+                    - /url: /BakkappaN/PlaywrightAPITestingTutorial/forks
+                    - img "forks" [ref=e200]
+                    - text: "20"
+            - listitem [ref=e202]:
+              - generic [ref=e204]:
+                - generic [ref=e206]:
+                  - img [ref=e207]
+                  - link "RestAssuredAPITestingFramework" [ref=e210] [cursor=pointer]:
+                    - /url: /BakkappaN/RestAssuredAPITestingFramework
+                  - text: Public
+                - paragraph [ref=e211]: Rest Assured API Testing Framework Tutorial
+                - paragraph [ref=e212]:
+                  - generic [ref=e213]: HTML
+                  - link "stars 24" [ref=e215] [cursor=pointer]:
+                    - /url: /BakkappaN/RestAssuredAPITestingFramework/stargazers
+                    - img "stars" [ref=e216]
+                    - text: "24"
+                  - link "forks 52" [ref=e218] [cursor=pointer]:
+                    - /url: /BakkappaN/RestAssuredAPITestingFramework/forks
+                    - img "forks" [ref=e219]
+                    - text: "52"
+            - listitem [ref=e221]:
+              - generic [ref=e223]:
+                - generic [ref=e225]:
+                  - img [ref=e226]
+                  - link "PlaywrightTypeScriptTutorialFullCourse" [ref=e229] [cursor=pointer]:
+                    - /url: /BakkappaN/PlaywrightTypeScriptTutorialFullCourse
+                  - text: Public
+                - paragraph [ref=e230]: In this Playwright with TypeScript Tutorial Full Course covered topics from basics to advance level. Playwright with TypeScript Full Course - https://youtube.com/playlist?list=PLUeDIlio4THEXmQxNvKm…
+                - paragraph [ref=e231]:
+                  - generic [ref=e232]: TypeScript
+                  - link "stars 36" [ref=e234] [cursor=pointer]:
+                    - /url: /BakkappaN/PlaywrightTypeScriptTutorialFullCourse/stargazers
+                    - img "stars" [ref=e235]
+                    - text: "36"
+                  - link "forks 31" [ref=e237] [cursor=pointer]:
+                    - /url: /BakkappaN/PlaywrightTypeScriptTutorialFullCourse/forks
+                    - img "forks" [ref=e238]
+                    - text: "31"
+            - listitem [ref=e240]:
+              - generic [ref=e242]:
+                - generic [ref=e244]:
+                  - img [ref=e245]
+                  - link "CypressTutorialFullCourse" [ref=e248] [cursor=pointer]:
+                    - /url: /BakkappaN/CypressTutorialFullCourse
+                  - text: Public
+                - paragraph [ref=e249]: "Cypress Tutorial Full Course #cypress #tutorial #fullcourse #cypresscourse"
+                - paragraph [ref=e250]:
+                  - generic [ref=e251]: JavaScript
+                  - link "stars 16" [ref=e253] [cursor=pointer]:
+                    - /url: /BakkappaN/CypressTutorialFullCourse/stargazers
+                    - img "stars" [ref=e254]
+                    - text: "16"
+                  - link "forks 19" [ref=e256] [cursor=pointer]:
+                    - /url: /BakkappaN/CypressTutorialFullCourse/forks
+                    - img "forks" [ref=e257]
+                    - text: "19"
+        - img "Loading" [ref=e263]
+  - contentinfo [ref=e266]:
+    - heading "Footer" [level=2] [ref=e267]
+    - generic [ref=e268]:
+      - generic [ref=e269]:
+        - link "GitHub Homepage" [ref=e270] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e271]
+        - generic [ref=e273]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e274]:
+        - heading "Footer navigation" [level=3] [ref=e275]
+        - list "Footer navigation" [ref=e276]:
+          - listitem [ref=e277]:
+            - link "Terms" [ref=e278] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e279]:
+            - link "Privacy" [ref=e280] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e281]:
+            - link "Security" [ref=e282] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e283]:
+            - link "Status" [ref=e284] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e285]:
+            - link "Community" [ref=e286] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e287]:
+            - link "Docs" [ref=e288] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e289]:
+            - link "Contact" [ref=e290] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e291]:
+            - button "Manage cookies" [ref=e293] [cursor=pointer]
+          - listitem [ref=e294]:
+            - button "Do not share my personal information" [ref=e296] [cursor=pointer]
+```
