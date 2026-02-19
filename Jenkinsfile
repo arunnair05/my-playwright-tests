@@ -2,7 +2,9 @@ pipeline {
     agent {
         // This uses the official Microsoft Playwright image
         docker { 
-            image 'mcr.microsoft.com/playwright:v1.40.0-jammy' 
+            image 'mcr.microsoft.com/playwright:v1.57.0-noble'
+            // Keep these args to fix the npm permission (EACCES) issues
+            args '-u root:root --env HOME=${WORKSPACE} --ipc=host'
         }
     }
 
