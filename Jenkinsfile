@@ -6,27 +6,17 @@ pipeline {
         }
     }
 
-    tools {
-        // Must match the name in Global Tool Configuration exactly
-        allure 'Allure 2.36.0' 
-    }
-
+    // We no longer need the 'tools' section for Allure since we'll use npx
+    
     stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
-                sh 'npm ci --cache .npm-cache --unsafe-perm' 
+                sh 'npm ci --unsafe-perm' 
             }
         }
-
         stage('Run Playwright Tests') {
             steps {
-                // Run tests inside the Docker container
+                // This generates the 'allure-results' folder
                 sh 'npx playwright test'
             }
         }
@@ -34,26 +24,23 @@ pipeline {
 
     post {
         always {
-            // Use a script block to run Allure on the host (GCP VM) 
-            // instead of inside the Playwright container.
             script {
-                node('built-in') {
-                    allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
-                }
+                // Generate the report using the local npm package
+                // This stays INSIDE the container where the files actually are
+                sh 'npx allure generate allure-results --clean -o allure-report'
             }
 
-            // Publish the standard HTML report as a backup
+            // Use publishHTML to show the generated Allure report
             publishHTML(target: [
                 allowMissing: true,
                 alwaysLinkToLastBuild: true,
                 keepAll: true,
-                reportDir: 'playwright-report',
+                reportDir: 'allure-report',
                 reportFiles: 'index.html',
-                reportName: 'Playwright HTML Report'
+                reportName: 'Allure Dashboard'
             ])
-            
-            // Critical for your 10GB GCP Disk: 
-            // Clears the workspace after the build to save space.
+
+            // Clean up to save your 10GB GCP disk
             cleanWs()
         }
     }
