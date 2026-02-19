@@ -1,22 +1,27 @@
 pipeline {
     agent {
         docker { 
-            image 'mcr.microsoft.com/playwright/java:v1.57.0-noble'
+            image 'mcr.microsoft.com/playwright:v1.57.0-noble'
             args '-u root:root --env HOME=/root --ipc=host'
         }
     }
 
-    // We no longer need the 'tools' section for Allure since we'll use npx
-    
     stages {
-        stage('Install Dependencies') {
+        stage('Install System Dependencies') {
             steps {
-                sh 'npm ci --unsafe-perm' 
+                // This installs Java inside the container to fix the Allure error
+                sh 'apt-get update && apt-get install -y default-jre'
             }
         }
+
+        stage('Install Node Dependencies') {
+            steps {
+                sh 'npm ci --cache .npm-cache --unsafe-perm' 
+            }
+        }
+
         stage('Run Playwright Tests') {
             steps {
-                // This generates the 'allure-results' folder
                 sh 'npx playwright test'
             }
         }
@@ -25,12 +30,10 @@ pipeline {
     post {
         always {
             script {
-                // Generate the report using the local npm package
-                // This stays INSIDE the container where the files actually are
+                // Generates the report inside the container using the JRE we just installed
                 sh 'npx allure generate allure-results --clean -o allure-report'
             }
 
-            // Use publishHTML to show the generated Allure report
             publishHTML(target: [
                 allowMissing: true,
                 alwaysLinkToLastBuild: true,
@@ -40,7 +43,7 @@ pipeline {
                 reportName: 'Allure Dashboard'
             ])
 
-            // Clean up to save your 10GB GCP disk
+            // Essential for your GCP VM disk health
             cleanWs()
         }
     }
