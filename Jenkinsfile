@@ -19,6 +19,12 @@ pipeline {
                 sh 'npm ci --cache .npm-cache --unsafe-perm' 
             }
         }
+        stage('Clean Old Results') {
+    steps {
+        // Delete the folders so old test cases don't show up
+        sh 'rm -rf allure-results allure-report playwright-report'
+    }
+}
 
         stage('Run Playwright Tests') {
             steps {
