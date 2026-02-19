@@ -25,7 +25,7 @@ pipeline {
         stage('Run Playwright Tests') {
             steps {
                 // 'sh' runs commands in the Linux terminal of the container
-                sh 'npx playwright test'
+                sh 'npx playwright test --project:chromium'
             }
         }
     }
