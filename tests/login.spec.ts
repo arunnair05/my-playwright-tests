@@ -44,5 +44,7 @@ test.describe("2nd Round of Tests ", () => {
   });
 
   test('login as standard_user and  check the message', async ({ page }) => {
+    expect(page.url()).toContain("index");
+
   });
 });
